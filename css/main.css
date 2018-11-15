@@ -23,18 +23,18 @@ h1 {
   color: #fff;
 }
 
-.links {
+.space {
   margin: .3em;
   padding: 0;
   text-align: center;
 }
 
-.links li {
+.space li {
   margin: 0;
   display: inline-block;
 }
 
-.links a {
+.space a {
   padding: .5em .75em;
   border-radius: 3px;
   display: inline-block;
@@ -43,6 +43,6 @@ h1 {
   color: #fff;
 }
 
-.links a:hover {
+.space a:hover {
   background-color: #f33;
 }
