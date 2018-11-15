@@ -15,6 +15,11 @@ body {
   background-color: #79756f;
 }
 
+header {
+  border-bottom: 3px solid #595652;
+  background-color: #79756f;
+}
+
 h1 {
   margin: 0;
   color: #fff;
@@ -22,25 +27,37 @@ h1 {
   font-family: Bevan, serif;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .links {
   margin: .3em;
   padding: 0;
   text-align: center;
+  list-style-type: none;
 }
 
 .links a {
-  padding: .5em .75em;
-  border-radius: 3px;
-  display: inline-block;
-  text-decoration: none;
-  background-color: #713837;
   color: #fff;
+  background-color: #713837;
+  padding: .5em .75em;
+  border-bottom: 3px;
+  text-decoration: none;
 }
 
 .links li {
   margin: 0;
+  padding: .5em .75em
+  background-color: #713837;
   display: inline-block;
-  max-width: 20em;
+  border-radius: .3em;
+  text-align: center;
+}
+
+.links li:hover {
+  background-color: #f33;
 }
 
 .links a:hover {
