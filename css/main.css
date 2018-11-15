@@ -1,43 +1,7 @@
 html {
   box-sizing: border-box;
-  background-color: #dbd6cf;
-  font-family: Georgia, serif;
-  line-height: 1.5;
 }
 
-body {
-  background-color: #79756f;
-}
-
-ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline;
-}
-
-li a {
-  color: #fff;
-  padding: 2em .75em;
-  text-decoration: none;
-  margin: .3em;
-}
-
-div {
-  text-align: center;
-}
-
-h1 {
-  text-align: center;
-  color: #fff;
-}
-
-#rcorners {
-  display: inline;
-  border-radius: 0.3em;
-  background: #713837;
-  padding: 0.75em;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
